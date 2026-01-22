@@ -1,0 +1,22 @@
+Validating /content/drive/MyDrive/yolo_insects_training/run22/weights/best.pt...
+Ultralytics 8.3.197 🚀 Python-3.12.11 torch-2.8.0+cu126 CUDA:0 (NVIDIA A100-SXM4-40GB, 40507MiB)
+YOLO11n summary (fused): 100 layers, 2,585,077 parameters, 0 gradients, 6.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 7.1it/s 4.1s
+                   all        911       1014      0.894      0.818       0.88      0.565
+                  Bees         70         80      0.821       0.95      0.945      0.508
+             Butterfly         60         60      0.941      0.983      0.987      0.765
+                Mantis         53         53      0.907       0.74      0.901      0.485
+                   ant         56         81       0.84      0.802      0.836       0.42
+                beetle         64         90      0.915      0.714      0.833       0.46
+           caterpillar         59         71      0.884      0.704      0.829      0.535
+            centipedes         60         61      0.923      0.782      0.853      0.509
+             cockroach         56         59      0.835       0.78      0.816       0.58
+             dragonfly         51         57      0.887      0.686      0.782      0.477
+                   fly         55         63      0.953      0.952      0.986       0.74
+           grasshopper         74         74      0.803      0.716      0.779       0.41
+               ladybug         54         56       0.95      0.893      0.953      0.742
+              mosquito         64         64      0.856      0.931      0.908      0.618
+                spider         75         75      0.942      0.933      0.964      0.782
+                  wasp         60         70      0.957        0.7      0.835      0.452
+Speed: 0.1ms preprocess, 0.6ms inference, 0.0ms loss, 0.9ms postprocess per image
+Results saved to /content/drive/MyDrive/yolo_insects_training/run22

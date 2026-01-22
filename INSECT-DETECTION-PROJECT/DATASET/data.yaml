@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['Bees', 'Butterfly', 'Mantis', 'ant', 'beetle', 'caterpillar', 'centipedes', 'cockroach', 'dragonfly', 'fly', 'grasshopper', 'ladybug', 'mosquito', 'spider', 'wasp']
+
+roboflow:
+  workspace: tiger-emltm
+  project: insects-9yf6s
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/tiger-emltm/insects-9yf6s/dataset/2

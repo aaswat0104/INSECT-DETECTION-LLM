@@ -1,0 +1,9 @@
+ultralytics==8.3.198
+torchvision
+opencv-python
+numpy
+matplotlib
+Pillow
+picamera2
+ollama
+ttk
